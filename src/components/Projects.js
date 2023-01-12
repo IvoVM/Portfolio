@@ -3,6 +3,8 @@ import { ProjectCard } from "./ProjectCard";
 import projImg4 from "../assets/img/project-img4.jpg";
 import projImg5 from "../assets/img/project-img5.jpg";
 import projImg6 from "../assets/img/project-img6.png";
+import projImg7 from "../assets/img/project-img7.png";
+
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
@@ -28,6 +30,12 @@ export const Projects = () => {
       description: "An Ecommerce app coded using Angular 14 and  NodeJS",
       imgUrl: projImg6,
       link: "https://github.com/IvoVM/Ecommerce",
+    },
+    {
+      title: "Youtube",
+      description: "An Youtube like app coded using React Mui Components  and YoutubeV3 Api from RapidApi",
+      imgUrl: projImg7,
+      link: "https://github.com/IvoVM/YoutubeCopy",
     },
   ];
 

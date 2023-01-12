@@ -62,7 +62,7 @@ const NewSkills = () => {
                 </div>
                 <div className="skill-item ">
                   <div className="percentage front">
-                    <span className="percentage-number">4/10</span>
+                    <span className="percentage-number">5/10</span>
                   </div>
                   <h5>Bootstrap</h5>
                 </div>
@@ -80,7 +80,7 @@ const NewSkills = () => {
                 </div>
                 <div className="item1">
                   <div className="percentage backend">
-                    <span className="percentage-number">5/10</span>
+                    <span className="percentage-number">7/10</span>
                   </div>
                   <h5>NodeJs/Express</h5>
                 </div>
