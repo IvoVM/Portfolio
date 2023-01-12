@@ -78,7 +78,7 @@ const NewSkills = () => {
                   </div>
                   <h5>React</h5>
                 </div>
-                <div className="item1">
+                <div className="skill-item">
                   <div className="percentage backend">
                     <span className="percentage-number">7/10</span>
                   </div>
