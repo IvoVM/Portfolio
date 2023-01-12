@@ -16,10 +16,11 @@ export const Footer = () => {
               <a
                 href="https://www.linkedin.com/in/ivo-valentin-mastrangelo-42270521b/"
                 target="_blank"
+                rel="noreferrer"
               >
                 <img src={navIcon1} alt="Icon"title="LinkedIN" />
               </a>
-              <a href="https://github.com/IvoVM" target="_blank">
+              <a href="https://github.com/IvoVM" target="_blank" rel="noreferrer">
                 <img src={navIcon4} alt="Icon" title="GitHub"/>
               </a>
             </div>
