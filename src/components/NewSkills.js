@@ -1,6 +1,7 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import colorSharp from "../assets/img/color-sharp.png";
+import Skill from "./Skill";
 const NewSkills = () => {
   const responsive = {
     superLargeDesktop: {
@@ -20,6 +21,48 @@ const NewSkills = () => {
       items: 1,
     },
   };
+  const Skills = [
+    {
+      title: "HTML5",
+      points: "8/10",
+      className: "percentage front",
+    },
+    {
+      title: "CSS/SCSS",
+      points: "7/10",
+      className: "percentage front",
+    },
+    {
+      title: "Javascript",
+      points: "7/10",
+      className: "percentage front",
+    },
+    {
+      title: "Bootstrap",
+      points: "5/10",
+      className: "percentage front",
+    },
+    {
+      title: "Angular",
+      points: "7/10",
+      className: "percentage framework",
+    },
+    {
+      title: "React",
+      points: "7/10",
+      className: "percentage framework",
+    },
+    {
+      title: "NodeJs/Express",
+      points: "7/10",
+      className: "percentage backend",
+    },
+    {
+      title: "MondoDB",
+      points: "6/10",
+      className: "percentage database",
+    },
+  ];
 
   return (
     <section className="skill" id="skills">
@@ -42,54 +85,9 @@ const NewSkills = () => {
                 infinite={true}
                 className="owl-carousel owl-theme skill-slider"
               >
-                <div className="skill-item">
-                  <div className="percentage front">
-                    <span className="percentage-number">8/10</span>
-                  </div>
-                  <h5>HTML5</h5>
-                </div>
-                <div className="skill-item">
-                  <div className="percentage front">
-                    <span className="percentage-number">7/10</span>
-                  </div>
-                  <h5>CSS/SCSS</h5>
-                </div>
-                <div className="skill-item">
-                  <div className="percentage front">
-                    <span className="percentage-number">7/10</span>
-                  </div>
-                  <h5>JavaScript</h5>
-                </div>
-                <div className="skill-item ">
-                  <div className="percentage front">
-                    <span className="percentage-number">5/10</span>
-                  </div>
-                  <h5>Bootstrap</h5>
-                </div>
-                <div className="skill-item">
-                  <div className="percentage framework">
-                    <span className="percentage-number">7/10</span>
-                  </div>
-                  <h5>Angular</h5>
-                </div>
-                <div className="skill-item">
-                  <div className="percentage framework">
-                    <span className="percentage-number">5/10</span>
-                  </div>
-                  <h5>React</h5>
-                </div>
-                <div className="skill-item">
-                  <div className="percentage backend">
-                    <span className="percentage-number">7/10</span>
-                  </div>
-                  <h5>NodeJs/Express</h5>
-                </div>
-                <div className="skill-item">
-                  <div className="percentage database">
-                    <span className="percentage-number">5/10</span>
-                  </div>
-                  <h5>MongoDB</h5>
-                </div>
+                {Skills.map((skill, index) => {
+                  return <Skill key={index} {...skill} />;
+                })}
               </Carousel>
             </div>
           </div>
