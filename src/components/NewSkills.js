@@ -29,7 +29,7 @@ const NewSkills = () => {
     },
     {
       title: "CSS/SCSS",
-      points: "7/10",
+      points: "8/10",
       className: "percentage front",
     },
     {
@@ -39,7 +39,7 @@ const NewSkills = () => {
     },
     {
       title: "Bootstrap",
-      points: "5/10",
+      points: "6/10",
       className: "percentage front",
     },
     {

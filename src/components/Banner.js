@@ -14,15 +14,18 @@ export const Banner = () => {
   const toRotate = ["Mastrangelo", "Full Stack Developer"];
   const period = 2000;
 
-  useEffect(() => {
-    let ticker = setInterval(() => {
-      tick();
-    }, delta);
+  useEffect(
+    () => {
+      let ticker = setInterval(() => {
+        tick();
+      }, delta);
 
-    return () => {
-      clearInterval(ticker);
-    };
-  }, [text]);
+      return () => {
+        clearInterval(ticker);
+      };
+    }, // eslint-disable-next-line
+    [text]
+  );
 
   const tick = () => {
     let i = loopNum % toRotate.length;
@@ -39,7 +42,7 @@ export const Banner = () => {
 
     if (!isDeleting && updatedText === fullText) {
       setIsDeleting(true);
-      setIndex((prevIndex) => prevIndex - 1);
+      setIndex(index - 1);
       setDelta(period);
     } else if (isDeleting && updatedText === "") {
       setIsDeleting(false);
@@ -47,7 +50,7 @@ export const Banner = () => {
       setIndex(1);
       setDelta(500);
     } else {
-      setIndex((prevIndex) => prevIndex + 1);
+      setIndex(index + 1);
     }
   };
 
@@ -97,6 +100,7 @@ export const Banner = () => {
                     <a
                       href="https://www.linkedin.com/in/ivo-valentin-mastrangelo-42270521b/"
                       target="_blank"
+                      rel="noreferrer"
                     >
                       Let's Work Together!
                       <ArrowRightCircle size={25} />
