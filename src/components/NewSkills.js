@@ -62,6 +62,11 @@ const NewSkills = () => {
       points: "6/10",
       className: "percentage database",
     },
+    {
+      title: "PostgreSQL",
+      points: "6/10",
+      className: "percentage database",
+    },
   ];
 
   return (
