@@ -1,42 +1,27 @@
 import { Container, Row, Col, Tab } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg4 from "../assets/img/project-img4.jpg";
-import projImg5 from "../assets/img/project-img5.jpg";
-import projImg6 from "../assets/img/project-img6.png";
-import projImg7 from "../assets/img/project-img7.png";
+import projImg1 from "../assets/img/project-img1.png";
+import projImg2 from "../assets/img/project-img2.png";
 
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 
-export const Projects = () => {
+export const ProfessionalProjects = () => {
   const projects = [
     {
-      title: "Whatsapp Web",
+      title: "El semanario",
       description:
-        " MEAN-Chatting App - coded using Angular 14,NodeJS(Express), Websockets and MongoDB",
-      imgUrl: projImg4,
-      link: "https://github.com/IvoVM/WhatsApp-Chatting-Front",
+        "A Static news site, i work on his development and deploy with my brother",
+      imgUrl: projImg1,
+      link: "https://elsemanariomiramar.com.ar/",
     },
     {
-      title: "Twitch Streaming App",
+      title: "FmMaster",
       description:
-        "A Twitch-like streaming app, coded using Angular 14, NodeJS(Express) and node-media-server",
-      imgUrl: projImg5,
-      link: "https://github.com/IvoVM/Twitch-Streaming-App-Front",
-    },
-    {
-      title: "Ecommerce",
-      description: "An Ecommerce app coded using Angular 14 and  NodeJS",
-      imgUrl: projImg6,
-      link: "https://github.com/IvoVM/Ecommerce",
-    },
-    {
-      title: "Youtube",
-      description:
-        "An Youtube like app coded using React Mui Components  and YoutubeV3 Api from RapidApi",
-      imgUrl: projImg7,
-      link: "https://github.com/IvoVM/YoutubeCopy",
+        "An online radio, I work on his players and do various debugs",
+      imgUrl: projImg2,
+      link: "https://fmmaster.com.ar/",
     },
   ];
 
@@ -52,10 +37,9 @@ export const Projects = () => {
                     isVisible ? "animate__animated animate__fadeIn" : ""
                   }
                 >
-                  <h2>Projects</h2>
+                  <h2>Professional Projects</h2>
                   <p>
-                    For fun projects. <br></br>
-                    They can be found on mi GitHub.
+                    The code of these projects is reserved for security reasons.
                   </p>
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Tab.Content
