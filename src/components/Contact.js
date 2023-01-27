@@ -58,6 +58,7 @@ export const Contact = () => {
                           type="tel"
                           placeholder="Phone No."
                           autoComplete="off"
+                          name="phone"
                         />
                       </Col>
                       <Col size={12} className="px-1">
@@ -65,6 +66,7 @@ export const Contact = () => {
                           rows="6"
                           placeholder="Message"
                           autoComplete="off"
+                          name="textarea"
                         ></textarea>
                         <button type="submit">
                           <span>Send</span>
