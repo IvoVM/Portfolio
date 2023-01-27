@@ -19,7 +19,7 @@ export const ProfessionalProjects = () => {
     {
       title: "FmMaster",
       description:
-        "An online radio, I work on his players and do various debugs",
+        "An online radio, I work on his players and do several debugs",
       imgUrl: projImg2,
       link: "https://fmmaster.com.ar/",
     },
