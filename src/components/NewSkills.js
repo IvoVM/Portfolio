@@ -33,7 +33,7 @@ const NewSkills = () => {
       className: "percentage front",
     },
     {
-      title: "Javascript",
+      title: "Js/TypeScript",
       points: "7/10",
       className: "percentage front",
     },
@@ -58,7 +58,7 @@ const NewSkills = () => {
       className: "percentage backend",
     },
     {
-      title: "MondoDB",
+      title: "MongoDB",
       points: "6/10",
       className: "percentage database",
     },
