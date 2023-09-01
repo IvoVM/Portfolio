@@ -24,7 +24,7 @@ const NewSkills = () => {
   const Skills = [
     {
       title: "HTML5",
-      points: "8/10",
+      points: "10/10",
       className: "percentage front",
     },
     {
@@ -34,37 +34,47 @@ const NewSkills = () => {
     },
     {
       title: "Js/TypeScript",
-      points: "7/10",
+      points: "9/10",
       className: "percentage front",
     },
     {
       title: "Bootstrap",
-      points: "6/10",
+      points: "9/10",
       className: "percentage front",
     },
     {
       title: "Angular",
-      points: "7/10",
+      points: "9/10",
+      className: "percentage framework",
+    },
+    {
+      title: "Ionic",
+      points: "8/10",
       className: "percentage framework",
     },
     {
       title: "React",
+      points: "9/10",
+      className: "percentage framework",
+    },
+    {
+      title: "React Native",
       points: "7/10",
       className: "percentage framework",
     },
     {
       title: "NodeJs/Express",
-      points: "7/10",
+      points: "9/10",
       className: "percentage backend",
     },
     {
       title: "MongoDB",
-      points: "6/10",
+      points: "9/10",
       className: "percentage database",
     },
     {
       title: "PostgreSQL",
-      points: "5/10",
+      points: "6/10",
       className: "percentage database",
     },
   ];
