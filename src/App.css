@@ -523,7 +523,8 @@ h5 {
   opacity: 1;
 }
 .proj-imgbx img {
-  min-height: 261px;
+height: 300px;
+object-fit: cover;
 }
 .proj-txtx h4 {
   font-size: 30px;
