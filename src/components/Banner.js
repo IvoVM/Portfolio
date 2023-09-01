@@ -77,24 +77,25 @@ export const Banner = () => {
                       <span className="wrap">{text}</span>
                     </span>
                   </h1>
-                  <p>English:</p>
                   <p>
-                    I started in the world of web development due to the
-                    influence of my older brother a Full Stack Professional.
-                    Since then I have studied development using the latest
-                    technologies with the goal in mind of building software
-                    clean and efficient, I consider myself a proactive person,
-                    educated and sociable who is always in constant learn.
-                  </p>
-                  <p>Español:</p>
-                  <p>
-                    Comenze en el mundo del desarrollo web debido a la
-                    influencia de mi hermano mayor un Full Stack Profesional,
-                    desde entonces he estudiado desarrollo usando las ultimas
-                    tecnologias con el objetivo en mente de construir software
-                    limpio y eficiente, me considero una persona proactiva,
-                    educada y sociable que esta siempre en constante
-                    aprendizaje.
+                    Hello! I'm a passionate Full Stack web developer with a
+                    strong background since the age of 16. My journey into web
+                    development started as a hobby and has grown into a true
+                    calling over the years. During my time as a developer, I've
+                    worked on a variety of challenging projects that have
+                    contributed to my growth and ongoing learning. I've had the
+                    opportunity to create functional and visually appealing web
+                    applications, collaborate with cross-functional teams, and
+                    refine my technical skills along the way. My focus is on
+                    staying updated with the latest technological trends and
+                    finding creative solutions to complex problems. I firmly
+                    believe in the importance of quality and efficiency in every
+                    project I engage with. I'm excited about the opportunity to
+                    apply my experience and passion to a new challenge and
+                    contribute to the success of a team that values innovation
+                    and technical excellence. Thank you for considering my
+                    profile and for the chance to be part of a development and
+                    technology-focused team.
                   </p>
                   <button>
                     <a
