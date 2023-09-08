@@ -5,6 +5,8 @@ import projImg2 from "../assets/img/projectsImages/project-img2.png";
 import projImg3 from "../assets/img/projectsImages/project-img3.png";
 import projImg4 from "../assets/img/projectsImages/project-img4.png";
 import projImg5 from "../assets/img/projectsImages/project-img5.png";
+import projImg6 from "../assets/img/projectsImages/project-img8.png";
+import projImg7 from "../assets/img/projectsImages/project-img7.png";
 
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import "animate.css";
@@ -12,6 +14,13 @@ import TrackVisibility from "react-on-screen";
 
 export const ProfessionalProjects = () => {
   const projects = [
+    {
+      title: "Lomi.cl",
+      description:
+        "An online ecommerce web app  from the lomi company, made in Angular and bootstrap",
+      imgUrl: projImg6,
+      link: "https://lomi.cl/",
+    },
     {
       title: "Lomi-mobile-app",
       description:
@@ -42,9 +51,8 @@ export const ProfessionalProjects = () => {
     },
     {
       title: "FmMaster",
-      description:
-        "An online radio, I work on his players and do several debugs",
-      imgUrl: projImg2,
+      description: "An online radio page, developed with React and bootstrap",
+      imgUrl: projImg7,
       link: "https://fmmaster.com.ar/",
     },
   ];
