@@ -1,6 +1,6 @@
 const Skill = (skill) => {
   return (
-    <div>
+    <div className="m-5">
       <div className="skill-item">
         <div className={skill.className}>
           <span className="percentage-number">{skill.points}</span>
