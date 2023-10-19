@@ -415,7 +415,6 @@ h5 {
   color: #f400a1;
 }
 
-
 /************ Projects Css ************/
 .project {
   padding: 80px 0;
@@ -523,8 +522,8 @@ h5 {
   opacity: 1;
 }
 .proj-imgbx img {
-height: 400px;
-object-fit: cover;
+  height: 400px;
+  object-fit: cover;
 }
 .proj-txtx h4 {
   font-size: 30px;
@@ -546,12 +545,33 @@ object-fit: cover;
   right: 0;
   z-index: -4;
 }
-/* .carousel-control-prev{
-  left: -120 !important;
+.carousel .carousel-control-prev {
+  left: -120px;
 }
-.carousel-control-next{
-  right: -120 !important;
-} */
+
+.carousel .carousel-control-next {
+  right: -120px;
+}
+
+@media screen and (max-width: 767px) {
+  .carousel .carousel-control-prev {
+    left: -40px;
+  }
+
+  .carousel .carousel-control-next {
+    right: -40px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .carousel .carousel-control-prev {
+    left: -20px;
+  }
+
+  .carousel .carousel-control-next {
+    right: -20px;
+  }
+}
 
 /************ Contact Css ************/
 .contact {
